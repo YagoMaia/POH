@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Oswald:wght@200;700&display=swap');
 
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 15px;
 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #585858; 
+    background: #585858;
 }
 
-body{
+body {
     background-image: linear-gradient(180deg, #936CF6, #8596D6, #72C5EB, #8CD4C7, #6CF698);
     -webkit-text-size-adjust: none;
 }
 
-header > p{
+header>p {
     text-align: center;
     color: rgb(238, 238, 238);
     font: italic 200 2.5em 'Oswald', sans-serif;
@@ -24,45 +24,45 @@ header > p{
     max-width: 600px;
 }
 
-header > h1{
+header>h1 {
     text-align: center;
     color: white;
     margin: auto;
 }
 
-h1{
+h1 {
     font-family: "Oswald", sans-serif;
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 5em;
 }
 
-h2{
+h2 {
     font-size: 3em;
     text-align: center;
     font-family: "Oswald", sans-serif;
 }
 
-.logo{
+.logo {
     display: block;
     height: 160px;
-    width:190px;
+    width: 190px;
     margin: auto;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 2em;
 }
 
-.explicacao{
+.explicacao {
     text-align: justify;
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1600px;
 }
 
-.grupo > img{
+.grupo>img {
     border-radius: 5px;
     width: 100%;
     display: block;
@@ -70,14 +70,14 @@ h2{
 
 }
 
-.video{
+.video {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-.video > iframe{
+.video>iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -85,7 +85,7 @@ h2{
     height: 100%;
 }
 
-main{
+main {
     background-color: white;
     border-radius: 10px;
     padding: 10px;
@@ -95,12 +95,12 @@ main{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
 }
 
-footer{
+footer {
     text-align: center;
     padding: 1px;
 }
 
-img.alunos{
+img.alunos {
     display: block;
     border-radius: 100%;
     width: 50%;
@@ -110,7 +110,7 @@ img.alunos{
 
 }
 
-section > p{
+section>p {
     font-weight: 400;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
