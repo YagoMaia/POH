@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Oswald:wght@200;700&display=swap');
-
+@media screen and (min-width: 25em) {
+    p {
+        font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
+    }
+}
 
 ::-webkit-scrollbar {
     width: 15px;
@@ -43,31 +47,9 @@ h2 {
     font-family: "Oswald", sans-serif;
 }
 
-.logo {
-    display: block;
-    height: 160px;
-    width: 190px;
-    margin: auto;
-}
-
 .titulo {
     text-align: center;
     font-size: 2em;
-}
-
-.explicacao {
-    text-align: justify;
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 1600px;
-}
-
-.grupo>img {
-    border-radius: 5px;
-    width: 100%;
-    display: block;
-    margin: 0px auto 10px auto;
-
 }
 
 .video {
@@ -83,6 +65,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 2%;
 }
 
 main {
@@ -91,7 +74,7 @@ main {
     padding: 10px;
     margin: auto;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1450px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
 }
 
@@ -100,17 +83,19 @@ footer {
     padding: 1px;
 }
 
-img.alunos {
-    display: block;
-    border-radius: 100%;
-    width: 50%;
-    padding: 0.65em;
-    border: 1px solid rgb(92, 89, 89);
-    margin: auto;
-
-}
-
 section>p {
     font-weight: 400;
-    font-size: 1.4em;
+}
+
+img.on-view, img.gorillaz{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.row{
+    border: solid 1px black;
+    margin: 10px auto;
+    width: 100%;
+
 }
