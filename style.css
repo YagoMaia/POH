@@ -1,8 +1,14 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Oswald:wght@200;700&display=swap');
 @media screen and (min-width: 25em) {
-    p {
+    p{
         font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
+    }
+    h2{
+        font-size: calc(32px + (48 - 32) * (100vw - 400px) / (800 - 400));
+    }
+    h3 {
+        font-size: calc(24px + (32 - 24) * (100vw - 400px) / (800 - 400));
     }
 }
 
@@ -28,6 +34,11 @@ header>p {
     max-width: 600px;
 }
 
+p{
+    text-align: justify;
+    margin: 10px;
+}
+
 header>h1 {
     text-align: center;
     color: white;
@@ -42,8 +53,10 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
     text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+h3{
     font-family: "Oswald", sans-serif;
 }
 
@@ -97,5 +110,17 @@ img.on-view, img.gorillaz{
     border: solid 1px black;
     margin: 10px auto;
     width: 100%;
+
+}
+
+#banda{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.integrantes{
+    flex: 1 1 500px;
+    margin: 20px 10px;
 
 }
