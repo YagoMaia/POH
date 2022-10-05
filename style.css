@@ -37,7 +37,7 @@ header>p {
 
 p{
     text-align: justify;
-    margin: 10px;
+    padding: 10px;
 }
 
 header>h1 {
@@ -75,7 +75,7 @@ h3{
     height: 0;
 }
 
-.video>iframe {
+.video>video {
     position: absolute;
     top: 0;
     left: 0;
@@ -114,6 +114,7 @@ img.on-view, img.gorillaz{
     border: solid 1px black;
     margin: 10px auto;
     width: 100%;
+    background-color: #000;
 
 }
 
