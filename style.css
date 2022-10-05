@@ -51,6 +51,7 @@ h1 {
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 4.5em;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -106,6 +107,7 @@ img.on-view, img.gorillaz{
     width: 100%;
     display: block;
     margin: auto;
+    border-radius: 5%;
 }
 
 .row{
